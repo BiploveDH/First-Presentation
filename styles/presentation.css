@@ -5,6 +5,7 @@
 .text-primary{
     color: rgb(203, 99, 24);;
 }
+/* header section styles */
 .header{
     background-color: grey;
     background-image: url(../images/banner/banner2.png);
@@ -37,8 +38,10 @@ nav{
      border: 0px;
      margin-top: 15px;
      margin-left: 210px;
+    text-align: center;
         
 }
+/* about section styles */
 .about{
     display: inline-flex;
     align-items: center;
@@ -53,13 +56,14 @@ nav{
    .about-description{
     height: 30px;
    }
-
-   .what-i-do{
-    margin-top: 130px;
+    /* plans section style */
+   .plans{
+    margin-top: 200px;
 }
 .section-title{
     font-size: 50px;
     text-align: center;
+    margin-top: 70px;
     margin-bottom: 20px;
 }
 .skills-container{
@@ -80,4 +84,71 @@ nav{
     margin-bottom: 20px;
 }
 .skill-description{
-    color: #757575
+    color: #757575;
+    }
+    /* banner section styles */
+.banner{
+    font-size: 50px;
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 900px;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+    padding: 100px;   
+    }
+.banner-title{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 250px;
+    font-size: 60px;
+    font-weight: 300px;
+    }
+.button-secondary{
+    color: rgb(187, 85, 12);
+    background-color: rgb(252, 251, 250);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800px;
+    height: 50px;
+    border: 0px;
+    margin-top: 15px;
+    margin-left: 100px;
+    }
+.banner-button{
+    width: 800px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    }
+    /* contact section styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #191817;
+    padding: 130px 200px;
+    }
+.contact-title{
+    color: rgb(244, 242, 242);
+    margin-bottom: 30px;
+    font-size: 40px;
+    }
+.contact-sub-title{
+    color: rgb(244, 242, 242);
+     margin-bottom: 30px;
+    }
+.contact-description{
+     color: rgb(244, 242, 242);
+    padding-right: 40px;
+    margin-bottom: 20px;
+    }
+.contact-info{
+    color: rgb(244, 242, 242);
+    padding-bottom: 30px;
+    }
+.contact input[type="text"], input[type="Email"], textarea{
+    margin-bottom: 10px;
+    border: 0;
+    width: 100%;
+    padding: 18px 20px;
+    }
+   
